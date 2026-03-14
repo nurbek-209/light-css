@@ -8,6 +8,8 @@
     padding: 0px;
     text-decoration: none;
     list-style: none;
+    overflow-x: hidden;
+    
 }
 
 /* //button exculisive design */
@@ -456,7 +458,10 @@
 .l-w {
     width: 100%;
 }
-
+.l-w-full
+{
+    width: 90%;
+}
 .l-w-05 {
     width: 40px;
 }
@@ -1052,13 +1057,29 @@
     font-family: 'LobsterTwo', sans-serif;
     font-weight: 700;
     height: 40px;
-    bottom: 10px;
     transition: 0.5s ease-in;
-    position: absolute;
-    left: 10px;
     color: white;
     background-color: #00FF7F;
     cursor: pointer;
+}
+
+
+.l-btn-card2 {
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    height: 40px;
+    transition: 0.5s ease-in-out;
+    color: white;
+    background-color: #00BFFF;
+    cursor: pointer;
+}
+
+.l-btn-card2:hover {
+    transition: 0.3s ease-in-out;
+    transform: scale(1.07);
 }
 
 .l-btn-card1:hover {
@@ -1066,6 +1087,78 @@
     transition: 0.5s ease-in;
 }
 
+.l-btn-card3 {
+    width: 200px;
+    height: 40px;
+    color: white;
+    background-color: goldenrod;
+    border-radius: 10px;
+    transition: 0.7s ease-out;
+    cursor: pointer;
+    border: none;
+    font-family: 'LobsterTwo', sans-serif;
+}
+
+.l-btn-card-exculisive {
+    width: 200px;
+    height: 40px;
+    background-color: deeppink;
+    border-radius: 10px;
+    border: none;
+    font-weight: 700;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 0.5s ease-out;
+    cursor: pointer;
+}
+
+.l-btn-card-exculisive:hover {
+    transition: 0.5s ease-out;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+
+}
+
+.l-btn-gradient {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    font-family: 'LobsterTwo';
+    font-weight: 500;
+    border: none;
+    transition: 0.5s ease-out;
+    background-image: linear-gradient(to right, #2af598, #009efd);
+    cursor: pointer;
+}
+.l-btn-gradient:hover
+{
+    transition: 0.5s ease-out;
+    transform: translateY(-5px);
+}
+
+.l-btn-card3:hover {
+    transition: 0.7s ease-out;
+    box-shadow: 2px 6px 6px 2px gray;
+}
+.l-btn-gradient-2 
+{
+    width: 200px;
+    height: 40px;
+    border: none;
+    background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+    color: white;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.l-btn-gradient-2:hover
+{
+    transition: 0.5s ease-in-out;
+    transform: translateY(-5px) scale(1.08);
+
+}
 .l-navbar-1 {
     width: 95%;
     height: 80px;
@@ -1622,7 +1715,15 @@
 .active {
     display: block;
 }
-
+.active2 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px
+    ;
+}
 @media only screen and (max-width:1110px) {
     .l-destkop2 {
         display: grid;
@@ -1681,17 +1782,17 @@
         font-size: 10px;
     }
 }
-@media only screen and (max-width:370px){
-    .mobile-2 
-    {
+
+@media only screen and (max-width:370px) {
+    .mobile-2 {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         margin-top: 40px;
     }
-    .l-card-mobile
-    {
+
+    .l-card-mobile {
         width: 300px;
         height: 200px;
         display: flex;
