@@ -9,7 +9,7 @@
     text-decoration: none;
     list-style: none;
     overflow-x: hidden;
-    
+
 }
 
 /* //button exculisive design */
@@ -319,6 +319,28 @@
 }
 
 @font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('fonts/SpaceGrotesk-Medium.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SpaceGrotesk';
+    src: url('fonts/SpaceGrotesk-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Ubuntu';
     src: url('fonts/Ubuntu-Regular.ttf') format('truetype');
     font-weight: 400;
@@ -370,6 +392,16 @@
     font-family: 'LobsterTwo', sans-serif;
     font-weight: 500;
 
+}
+
+.l-f-Spacegrotesk {
+    font-family: 'SpaceGrotesk', sans-serif;
+    font-weight: 900;
+}
+
+.l-f-Spacegrotesk-2 {
+    font-family: 'SpaceGrotesk', sans-serif;
+    font-weight: 700;
 }
 
 .l-f-lobster-2 {
@@ -458,10 +490,11 @@
 .l-w {
     width: 100%;
 }
-.l-w-full
-{
+
+.l-w-full {
     width: 90%;
 }
+
 .l-w-05 {
     width: 40px;
 }
@@ -1050,19 +1083,40 @@
     width: 200px;
 }
 
-.l-btn-card1 {
+.l-btn-card5 {
     width: 200px;
     border-radius: 10px;
     border: none;
     font-family: 'LobsterTwo', sans-serif;
     font-weight: 700;
     height: 40px;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
     transition: 0.5s ease-in;
     color: white;
     background-color: #00FF7F;
     cursor: pointer;
 }
 
+.l-card-1 p {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+    font-weight: 700;
+
+}
+
+.l-card-1 img {
+    border-radius: 10px;
+}
+
+.l-card-1 span {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: gray;
+    font-weight: 400;
+}
 
 .l-btn-card2 {
     width: 200px;
@@ -1077,12 +1131,36 @@
     cursor: pointer;
 }
 
+.l-card-2 {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    transition: 0.5s ease-in;
+    border-radius: 20px;
+}
+
+.l-card-2 img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.l-card-2:hover {
+    transition: 0.5s ease-in;
+    transform: translateY(-10px);
+}
+
 .l-btn-card2:hover {
     transition: 0.3s ease-in-out;
     transform: scale(1.07);
 }
 
-.l-btn-card1:hover {
+.l-btn-card5:hover {
     transform: translateY(-5px);
     transition: 0.5s ease-in;
 }
@@ -1130,8 +1208,8 @@
     background-image: linear-gradient(to right, #2af598, #009efd);
     cursor: pointer;
 }
-.l-btn-gradient:hover
-{
+
+.l-btn-gradient:hover {
     transition: 0.5s ease-out;
     transform: translateY(-5px);
 }
@@ -1140,25 +1218,26 @@
     transition: 0.7s ease-out;
     box-shadow: 2px 6px 6px 2px gray;
 }
-.l-btn-gradient-2 
-{
+
+.l-btn-gradient-2 {
     width: 200px;
     height: 40px;
     border: none;
     background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
     color: white;
-    font-family: 'Ubuntu',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 700;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.5s ease-in-out;
 }
-.l-btn-gradient-2:hover
-{
+
+.l-btn-gradient-2:hover {
     transition: 0.5s ease-in-out;
     transform: translateY(-5px) scale(1.08);
 
 }
+
 .l-navbar-1 {
     width: 95%;
     height: 80px;
@@ -1172,6 +1251,81 @@
     justify-content: space-between;
     align-items: center;
 
+}
+
+.l-navbar-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%;
+    margin-left: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.l-navbar-2 h1 {
+    font-family: 'LobsterTwo', sans-serif;
+    font-weight: 700;
+    color: #C71585;
+}
+
+.l-navbar-2 a {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    color: #009efd;
+}
+
+.l-navbar-2 input {
+    width: 190px;
+    height: 20px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 10px;
+    outline: none;
+    border: 0.5px solid gray;
+
+}
+
+.l-navbar-1 a {
+    text-decoration: none;
+    font-family: 'LobsterTwo', sans-serif;
+    font-size: 700;
+    color: deeppink;
+}
+
+.l-navbar-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    padding: 5px;
+    align-items: center;
+    margin-top: 30px;
+    border-bottom-left-radius: 20px;
+    margin-left: 20px;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+.l-navbar-3 a
+{
+    text-decoration: none;
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 500;
+    color: #00FF7F;
+}
+.l-navbar-3 select
+{
+    width: 60px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.l-navbar-3 h1 {
+    font-family: 'SpaceGrotesk', sans-serif;
+    font-weight: 900;
+    color: rgba(5, 5, 5, 0.5);
+    font-style: normal;
 }
 
 .l-navbar-logo {
@@ -1715,15 +1869,15 @@
 .active {
     display: block;
 }
-.active2 
-{
+
+.active2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 20px
-    ;
+    gap: 20px;
 }
+
 @media only screen and (max-width:1110px) {
     .l-destkop2 {
         display: grid;
