@@ -1159,6 +1159,7 @@
 .l-card-2 img {
     width: 200px;
     border-radius: 10px;
+    height: 200px;
 }
 
 .l-card-2:hover {
