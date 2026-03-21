@@ -9,6 +9,8 @@
     text-decoration: none;
     list-style: none;
     overflow-x: hidden;
+    border: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
@@ -17,7 +19,7 @@
 
 /* From Uiverse.io by FColombati */
 
-/* From Uiverse.io by kennyotsu */
+/* From Uiverse.io by kennyotsu */  
 .card {
     /* color used to softly clip top and bottom of the .words container */
     --bg-color: #111;
@@ -443,9 +445,12 @@
 }
 
 .l-linear-pink-blue-greenyellow {
-    background-image: linear-gradient(to right, palevioletred, blue, greenyellow);
+    background-image: linear-gradient(to right, palevioletred, blue,cyan,deeppink, greenyellow);
 }
-
+.l-linear-super
+{
+    background-image: linear-gradient(to right,orange,cyan,greenyellow,deeppink);
+}
 .l-linear-cyan-pink {
     background-image: linear-gradient(to right, cyan, palevioletred);
 }
@@ -538,7 +543,12 @@
 .l-w-10 {
     width: 1000px;
 }
-
+.l-w-11 {
+    width: 1100px;
+}
+.l-w-12 {
+    width: 1200px;
+}
 .l-h-b {
     height: 30px;
 }
@@ -1081,6 +1091,7 @@
 
 .l-card-1 img {
     width: 200px;
+    height: 200px;
 }
 
 .l-btn-card5 {
