@@ -661,7 +661,10 @@
 .l-dorange {
     background-color: orangered;
 }
-
+.l-transparent
+{
+     background-color: rgba(0, 150, 255, 0.15);
+}
 .l-text-orange {
     color: orange;
 }
@@ -1159,7 +1162,7 @@
 .l-card-2 img {
     width: 200px;
     border-radius: 10px;
-    height: 100px;
+    height: 200px;
 }
 
 .l-card-2:hover {
@@ -1187,6 +1190,45 @@
     cursor: pointer;
     border: none;
     font-family: 'LobsterTwo', sans-serif;
+}
+.l-card-3 
+{
+    width: 300px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    transition: 0.5s ease-out;
+    position: relative;
+    cursor: pointer;
+    padding: 5px;
+}
+.l-card-3:hover
+{
+    transform: translateY(-10px);
+    transition: 0.5s ease-out;
+}
+.l-card-3 img
+{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+.l-card-3 h1
+{
+    font-family: 'SpaceGrotesk',sans-serif;
+}
+.l-card-3 p,.l-card-3 span
+{
+    text-align: center;
+    color: gray;
+    font-family: 'LobsterTwo',sans-serif;
+
 }
 
 .l-btn-card-exculisive {
