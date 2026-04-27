@@ -3,7 +3,7 @@
 /* light css v1.0.0                                */
 /* ===================================== */
 /* * */
-.l {
+body{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
@@ -11,6 +11,7 @@
     overflow-x: hidden;
     border: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
 
 }
 
@@ -19,7 +20,7 @@
 
 /* From Uiverse.io by FColombati */
 
-/* From Uiverse.io by kennyotsu */  
+/* From Uiverse.io by kennyotsu */
 .card {
     /* color used to softly clip top and bottom of the .words container */
     --bg-color: #111;
@@ -445,12 +446,13 @@
 }
 
 .l-linear-pink-blue-greenyellow {
-    background-image: linear-gradient(to right, palevioletred, blue,cyan,deeppink, greenyellow);
+    background-image: linear-gradient(to right, palevioletred, blue, cyan, deeppink, greenyellow);
 }
-.l-linear-super
-{
-    background-image: linear-gradient(to right,orange,cyan,greenyellow,deeppink);
+
+.l-linear-super {
+    background-image: linear-gradient(to right, orange, cyan, greenyellow, deeppink);
 }
+
 .l-linear-cyan-pink {
     background-image: linear-gradient(to right, cyan, palevioletred);
 }
@@ -543,12 +545,15 @@
 .l-w-10 {
     width: 1000px;
 }
+
 .l-w-11 {
     width: 1100px;
 }
+
 .l-w-12 {
     width: 1200px;
 }
+
 .l-h-b {
     height: 30px;
 }
@@ -661,10 +666,11 @@
 .l-dorange {
     background-color: orangered;
 }
-.l-transparent
-{
-     background-color: rgba(0, 150, 255, 0.15);
+
+.l-transparent {
+    background-color: rgba(0, 150, 255, 0.15);
 }
+
 .l-text-orange {
     color: orange;
 }
@@ -906,178 +912,10 @@
 .l-absolute {
     position: absolute;
 }
-
 .l-relative {
     position: relative;
 }
 
-.l-rl-min {
-    left: 5px;
-}
-
-.l-rr-min {
-    right: 8px;
-}
-
-.l-rl {
-    left: 10px;
-}
-
-.l-rr {
-    right: 10px;
-}
-
-.l-rl-2 {
-    left: 20px;
-}
-
-.l-rr-2 {
-    right: 20px;
-}
-
-.l-rl-3 {
-    left: 30px;
-}
-
-.l-rr-3 {
-    right: 30px;
-}
-
-.l-rl-4 {
-    left: 40px;
-}
-
-.l-rl-5 {
-    left: 50px;
-}
-
-.l-rr-5 {
-    right: 50px;
-}
-
-.l-rr-4 {
-    right: 40px;
-}
-
-.l-rl-1xl {
-    left: 100px;
-}
-
-.l-rr-1xl {
-    right: 100px;
-}
-
-.l-rl-2xl {
-    left: 200px;
-}
-
-.l-rr-3xl {
-    right: 300px;
-}
-
-.l-rl-3xl {
-    left: 300px;
-}
-
-.l-rl-4xl {
-    left: 400px;
-}
-
-.l-rr-4xl {
-    right: 400px;
-}
-
-.l-rl-5xl {
-    left: 500px;
-}
-
-.l-rr-5xl {
-    right: 500px;
-}
-
-.l-rr-2xl {
-    right: 200px;
-}
-
-.l-top {
-    top: 10px;
-}
-
-.l-top-2 {
-    top: 20px;
-}
-
-.l-top-3 {
-    top: 30px;
-}
-
-.l-top-4 {
-    top: 40px;
-}
-
-.l-top-5 {
-    top: 50px;
-}
-
-.l-top-1xl {
-    top: 100px;
-}
-
-.l-top-2xl {
-    top: 200px;
-}
-
-.l-top-3xl {
-    top: 300px;
-}
-
-.l-top-4xl {
-    top: 400px;
-}
-
-.l-top-5xl {
-    top: 500px;
-}
-
-.l-bottom {
-    bottom: 10px;
-}
-
-.l-bottom-2 {
-    bottom: 20px;
-}
-
-.l-bottom-3 {
-    bottom: 30px;
-}
-
-.l-bottom-4 {
-    bottom: 40px;
-}
-
-.l-bottom-5 {
-    bottom: 50px;
-}
-
-.l-bottom-1xl {
-    bottom: 100px;
-}
-
-.l-bottom-2xl {
-    bottom: 200px;
-}
-
-.l-bottom-3xl {
-    bottom: 300px;
-}
-
-.l-bottom-4xl {
-    bottom: 400px;
-}
-
-.l-bottom-5xl {
-    bottom: 500px;
-}
 
 /* cards and navbar */
 .l-card-1 {
@@ -1191,12 +1029,12 @@
     border: none;
     font-family: 'LobsterTwo', sans-serif;
 }
-.l-card-3 
-{
+
+.l-card-3 {
     width: 300px;
     height: 600px;
     border-radius: 20px;
-    box-shadow:  rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -1208,26 +1046,52 @@
     cursor: pointer;
     padding: 5px;
 }
-.l-card-3:hover
+
+.l-card-4 {
+    width: 300px;
+    height: 540px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 4px 12px 12px 4px gray;
+}
+.l-card-4 span,.l-card-4 p
 {
+    font-family: 'Ubuntu',sans-serif;
+    font-weight: 500;
+    text-align: center;
+    color: gray;
+}
+.l-card-4:hover
+{
+    transition: 0.3s ease-out;
+    transform: translateY(-10px);
+}
+.l-card-3:hover {
     transform: translateY(-10px);
     transition: 0.5s ease-out;
 }
-.l-card-3 img
-{
+
+.l-card-3 img {
     width: 300px;
     height: 300px;
     border-radius: 20px;
 }
-.l-card-3 h1
-{
-    font-family: 'SpaceGrotesk',sans-serif;
+
+.l-card-3 h1 {
+    font-family: 'SpaceGrotesk', sans-serif;
 }
-.l-card-3 p,.l-card-3 span
-{
+
+.l-card-3 p,
+.l-card-3 span {
     text-align: center;
     color: gray;
-    font-family: 'LobsterTwo',sans-serif;
+    font-family: 'LobsterTwo', sans-serif;
 
 }
 
@@ -1363,21 +1227,22 @@
     gap: 20px;
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
-.l-navbar-3 a
-{
+
+.l-navbar-3 a {
     text-decoration: none;
-    font-family: 'Ubuntu',sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
     color: #00FF7F;
 }
-.l-navbar-3 select
-{
+
+.l-navbar-3 select {
     width: 60px;
     height: 30px;
     border-radius: 5px;
     cursor: pointer;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
 .l-navbar-3 h1 {
     font-family: 'SpaceGrotesk', sans-serif;
     font-weight: 900;
@@ -1391,7 +1256,13 @@
     font-family: 'Ubuntu', sans-serif;
     color: limegreen;
 }
-
+/* card accsesousary */
+.l-acs-1
+{
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
 /* 5. GAP SYSTEM */
 .l-gap-5 {
     gap: 5px;
@@ -1804,12 +1675,69 @@
 .l-slow {
     transition: 1.2s;
 }
+/* ===================================== */
+/* SMOOTH ANIMATSIYALAR - ISHLAYDI!      */
+/* ===================================== */
 
+/* 1. KARTALAR UCHUN SMOOTH HOVER */
+.smooth-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.smooth-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+/* 2. TUGMALAR UCHUN SMOOTH */
+.smooth-btn {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.smooth-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.smooth-btn:active {
+    transform: translateY(0px);
+}
+
+/* 3. GLOW EFFEKT */
+.smooth-glow {
+    transition: all 0.3s ease;
+}
+.smooth-glow:hover {
+    box-shadow: 0 0 15px rgba(0, 150, 255, 0.5);
+}
+
+/* 4. SCROLL ANIMATSIYASI */
+.scroll-fade {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: all 0.5s ease-out;
+}
+.scroll-fade.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* 5. KATTALASHISH */
+.smooth-scale {
+    transition: transform 0.3s ease;
+}
+.smooth-scale:hover {
+    transform: scale(1.05);
+}
+
+/* 6. AYLANISH */
+.smooth-rotate {
+    transition: transform 0.3s ease;
+}
+.smooth-rotate:hover {
+    transform: rotate(3deg);
+}
 /* /* trasitions && animations */
 .l-bottom-trs:hover {
     transform: translateY(-10px);
 }
-
 .l-bottom-trs-2:hover {
     transform: translateY(-5px);
 }
@@ -1978,11 +1906,18 @@
     }
 
     .l-moblie-h {
-        height: 400px;
+        height: 100%;
+       max-height: 400px;
     }
-
+    .l-mobile-h-2
+    {
+        height: 100%;
+        max-height: 300px;
+    }
     .l-mobile-w {
-        width: 300px;
+        width: 100%;
+        max-width: 300px;
+
     }
 
     .l-mobile-text-small {
@@ -1992,6 +1927,7 @@
     .l-mobile-text-small-2 {
         font-size: 10px;
     }
+    
 }
 
 @media only screen and (max-width:370px) {
@@ -2004,7 +1940,8 @@
     }
 
     .l-card-mobile {
-        width: 300px;
+        width: 100%;
+        max-width: 300px;
         height: 200px;
         display: flex;
         justify-content: center;
