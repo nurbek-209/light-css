@@ -21,3 +21,5 @@
 ### CDN orqali (Eng oson)
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/nurbek-209/light-css@v3.0.0/index.css">
+    <script src="https://cdn.jsdelivr.net/gh/nurbek-209/light-css/light.js"></script>
+
