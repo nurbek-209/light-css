@@ -3,7 +3,7 @@
 **16 yoshli dasturchi Nurbek tomonidan yaratilgan yengil va tez CSS framework**
 
 ![Light CSS](https://via.placeholder.com/800x200/2af598/009efd?text=Light+CSS+v3.0.0)
-![Light js](https://cdn.jsdelivr.net/gh/nurbek-209/light-css/light.js)
+
 ## 📊 Statistika
 
 | Xususiyat | Soni |
