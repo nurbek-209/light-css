@@ -8,13 +8,13 @@
 
 | Xususiyat | Soni |
 |-----------|------|
-| **Klasslar** | 400+ |
-| **Gradientlar** | 9 ta |
-| **Shadowlar** | 7 ta |
+| **Klasslar** | 650+ |
+| **Gradientlar** | 12 ta |
+| **Shadowlar** | 9 ta |
 | **Ranglar** | 40+ |
-| **Animatsiyalar** | 3 ta |
-| **Hover effektlari** | 6 ta |
-| **Hajmi** | ~8KB |
+| **Animatsiyalar** | 5 ta |
+| **Hover effektlari** | 4 ta |
+| **Hajmi** | ~30KB |
 
 ## 🚀 Tez boshlash
 
